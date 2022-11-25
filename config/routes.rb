@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  resources :toys, only: [:index, :create, :update]
+  #Added destroy in our methods
+  resources :toys, only: [:index, :create, :update, :destroy]
 end
